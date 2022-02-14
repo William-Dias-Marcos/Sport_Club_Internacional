@@ -90,4 +90,23 @@ body{
     font-weight: 400;
     font-size: 20px;
     color: rgb(0, 0, 0);
+    text-indent: 30px;
 }
+
+.footer{
+    position: relative;
+}
+.footer-title{
+    left: 250px;
+    top: 135px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 400;
+    font-size: 150px;
+
+}
+.footer-img{
+    width: 100%;
+}
+    
