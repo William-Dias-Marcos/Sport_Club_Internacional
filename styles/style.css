@@ -6,9 +6,6 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-body{
-    font-size: 100%;
-}
 .header{
     display: flex;
     flex-direction: row;
@@ -39,6 +36,7 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    margin: 20px;
 }
 .main-content-written{
     display: flex;
@@ -81,8 +79,8 @@ body{
     align-items: center;
     gap: 10px;
     margin-top: 40px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
     text-align: justify;
 }
 .secondary-content-text{
@@ -96,17 +94,36 @@ body{
 .footer{
     position: relative;
 }
-.footer-title{
-    left: 250px;
-    top: 135px;
-    position: absolute;
-    color: rgb(255, 255, 255);
-    font-family: 'Alfa Slab One', cursive;
-    font-weight: 400;
-    font-size: 150px;
-
-}
 .footer-img{
     width: 100%;
 }
-    
+   
+@media only screen and (max-width: 800px) {
+    .main-content{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 470px) {
+    .header-menu{
+        margin-left: 20px;
+        gap: 10px;
+    }
+    .main-content-written-title{
+        font-size: 50px;
+    }
+    .secondary-content{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .header-img{
+        width: 110px;
+    }
+    .main-content-written-title{
+        font-size: 30px;
+    }
+    .main-content-img{
+        width: 280px;
+    }
+}
