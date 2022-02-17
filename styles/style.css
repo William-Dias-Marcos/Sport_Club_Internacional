@@ -99,10 +99,10 @@
         flex-direction: column;
     }
     .main-content-written-title{
-        font-size: 50px;
+        font-size: 40px;
     }
     .main-content-written-description{
-        font-size: 20px;
+        font-size: 16px;
     }
     .main-content-written-a{
         font-size: 20px;
@@ -113,9 +113,19 @@
 }
 
 @media only screen and (max-width: 470px) {
+    .header{
+        padding: 15PX;
+    }
     .header-menu{
         margin-left: 20px;
         gap: 10px;
+    }
+    .header-img{
+        width: 90px;
+        margin-right: 20PX;
+    }
+    .main{
+        margin-bottom: 30px;
     }
     .main-content-written-title{
         font-size: 50px;
@@ -128,12 +138,10 @@
         width: 170px;
         padding: 15px;
         border-radius: 15px;
+    }
 }
 
 @media only screen and (max-width: 360px) {
-    .header-img{
-        width: 110px;
-    }
     .main-content-written-title{
         font-size: 30px;
     }
