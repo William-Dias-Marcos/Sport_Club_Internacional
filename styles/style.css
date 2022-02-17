@@ -26,7 +26,6 @@
     font-weight: 400;
     font-size: 20px;
 }
-
 .main{
     border-top: 0.4px solid rgb(0, 0, 0);
     margin-bottom: 50px;
@@ -55,14 +54,13 @@
     font-size: 24px;
     color: rgb(0, 0, 0);
 }
-.main-content-written-button{
+.main-content-written-a{
+    text-align: center;
     background-color: rgb(255, 0, 0);
     color: rgb(0, 0, 0);
-    width: 180px;
-    height: 65px;
-    border: none;
+    width: 190px;
+    padding: 25px;
     border-radius: 15px;
-    box-shadow: 4px 5px 4px rgb(0, 0, 0, 0.25);
     font-family: 'Alfa Slab One', cursive;
     font-weight: 400;
     font-size: 24px;
@@ -72,7 +70,6 @@
     width: 350px;
     margin-top: 40px;
 }
-
 .secondary-content{
     display: flex;
     flex-direction: column;
@@ -90,7 +87,6 @@
     color: rgb(0, 0, 0);
     text-indent: 30px;
 }
-
 .footer{
     position: relative;
 }
@@ -102,7 +98,20 @@
     .main-content{
         flex-direction: column;
     }
+    .main-content-written-title{
+        font-size: 50px;
+    }
+    .main-content-written-description{
+        font-size: 20px;
+    }
+    .main-content-written-a{
+        font-size: 20px;
+    } 
+    .secondary-content-text{
+        font-size: 16px;
+    }
 }
+
 @media only screen and (max-width: 470px) {
     .header-menu{
         margin-left: 20px;
@@ -115,7 +124,12 @@
         margin-left: 5px;
         margin-right: 5px;
     }
+    .main-content-written-a{
+        width: 170px;
+        padding: 15px;
+        border-radius: 15px;
 }
+
 @media only screen and (max-width: 360px) {
     .header-img{
         width: 110px;
