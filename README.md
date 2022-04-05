@@ -2,7 +2,7 @@
 
 ## 💻 Sobre o projeto
 
-🔴⚪️🔴 Página de apresentação do Sport Club Internacional
+🔴⚪️🔴 Página de apresentação do Sport Club Internacional.
 
 https://sportclubinternacional.netlify.app/
 
