@@ -19,7 +19,7 @@ https://sportclubinternacional.netlify.app/
 ## 📱 Layout da Aplicação
 
 <p text  align="center">
-<img img width= "700" src= ""> 
+<img img width= "700" src= "https://github.com/William-Dias-Marcos/Sport_Club_Internacional/blob/master/to_readme/gif.gif"> 
 </p>
 
 
